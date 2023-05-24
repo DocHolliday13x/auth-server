@@ -1,6 +1,6 @@
-# LAB - Class 03 and Class 04
+# LAB - Class 07
 
-## Project: auth-server
+## Project: auth-server (supposed to be named bearer-auth)
 
 ### Author: Ryan Eastman
 
@@ -8,7 +8,7 @@
 
 1. Lab 07:
 
-   - We have been provided with starter code.
+   - We have been provided with starter code. We are tasked with going through the code, finding the bugs, and fixing them. We are also tasked with double checking features to the code base. So this lab is primarily debugging and testing for bearer auth.
 
 ### Links
 
@@ -17,7 +17,7 @@
 
 ### Collaborators
 
-- Ryan Gallaway - showed me everything I know about this becuase before today, I've literally never seen any of this.
+- Ryan Gallaway - provided the starter code, debugged as a class
 
 - Reece Renninger - collabed with
 
@@ -64,9 +64,10 @@
 
   <!-- test the routes -->
   - confirm that the database is empty
-  - confirm that the expected food/clothes exist after a POST request
-  - confirm that the expected food/clothes are updated after a PUT request
-  - confirm that the expected food/clothes are deleted after a DELETE request
+  - `nodemon`
+  - open thunder client
+  - enter url w/ query string
+  - hit send
   - test all RESTful CRUD routes
 
   - TDD if possible
